@@ -36,13 +36,17 @@ margin-top: 50px;
         }
 
         @keyframes textAnimation {
-            0% {
-                color: #3366ff;
-            }
-            50% {
-                color: #9933ff;
-            }
-            100% {
-                color: #3366ff;
-            }
-        }
+    0% {
+        color: #3366ff;
+    }
+    50% {
+        color: #9933ff;
+    }
+    100% {
+        color: #3366ff;
+    }
+}
+
+.task {
+    animation: textAnimation 1s infinite; /* Установите новую длительность 1s */
+}
